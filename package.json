@@ -1,0 +1,26 @@
+{
+  "name": "rapor-sistemi",
+  "version": "1.0.0",
+  "description": "GA4 + Meta Ads → PDF Müşteri Rapor Sistemi",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node src/index.js",
+    "rapor": "node src/index.js --generate",
+    "test": "node src/index.js --test-connections"
+  },
+  "dependencies": {
+    "@google-analytics/data": "^4.3.0",
+    "axios": "^1.7.0",
+    "dayjs": "^1.11.0",
+    "dotenv": "^16.6.1",
+    "handlebars": "^4.7.0",
+    "puppeteer": "^23.0.0"
+  },
+  "keywords": [
+    "rapor",
+    "ga4",
+    "meta-ads",
+    "pdf"
+  ],
+  "license": "ISC"
+}
